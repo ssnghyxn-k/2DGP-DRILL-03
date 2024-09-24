@@ -23,6 +23,11 @@ def run_bottom():
         draw_boy(x,90)
     pass
 
+def run_right():
+    for y in range(90,550,10):
+        draw_boy(750,y)
+    pass
+
 def run_rectangle():
     run_bottom()
     run_right()

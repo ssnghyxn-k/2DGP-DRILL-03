@@ -18,6 +18,13 @@ def run_circle():
         y = r * math.sin(math.radians(d))
     pass
 
+def run_rectangle():
+    run_bottom()
+    run_right()
+    run_top()
+    run_left()
+
+    pass
 
 while True:
     run_circle()

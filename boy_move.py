@@ -10,12 +10,14 @@ def draw_boy(x,y):
     boy.draw_now(x,y)
     delay(0.01)
 
-r = 300
+def run_circle():  
+    r = 300
+    cx = 800 // 2
+    cy = 600 // 2
 
-def run_circle():
     for d in range(0,360):
-        x = r * math.cos(math.radians(d))
-        y = r * math.sin(math.radians(d))
+        x = r * math.cos(math.radians(d)) + cx
+        y = r * math.sin(math.radians(d)) + cy
     pass
 
 def run_bottom():

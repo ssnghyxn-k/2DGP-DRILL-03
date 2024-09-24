@@ -18,6 +18,8 @@ def run_circle():
     for d in range(0,360):
         x = r * math.cos(math.radians(d)) + cx
         y = r * math.sin(math.radians(d)) + cy
+
+        draw_boy(x,y)
     pass
 
 def run_bottom():
@@ -39,8 +41,6 @@ def run_left():
     for y in range(550,90,-10):
         draw_boy(50,y)
     pass
-
-
 
 def run_rectangle():
     run_bottom()

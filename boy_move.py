@@ -33,6 +33,11 @@ def run_top():
         draw_boy(x,550)
     pass
 
+def run_left():
+    for y in range(550,90,-10):
+        draw_boy(50,y)
+    pass
+
 
 
 def run_rectangle():

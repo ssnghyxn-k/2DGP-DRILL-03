@@ -18,6 +18,11 @@ def run_circle():
         y = r * math.sin(math.radians(d))
     pass
 
+def run_bottom():
+    for x in range(50,750,10):
+        draw_boy(x,90)
+    pass
+
 def run_rectangle():
     run_bottom()
     run_right()

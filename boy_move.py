@@ -5,6 +5,11 @@ open_canvas()
 
 boy = load_image('character.png')
 
+def draw_boy(x,y):
+    clear_canvas_now()
+    boy.draw_now(x,y)
+    delay(0.01)
+
 r = 300
 
 def run_circle():
